@@ -4,5 +4,5 @@
 
 - Caique Moran de Souza - 2312478
 - Felipe da Silva Pereira Alves - 2310995
-- Laura
+- Laura Beatriz Silva Serbêto - 2321107
 
