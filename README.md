@@ -6,3 +6,33 @@
 - Felipe da Silva Pereira Alves - 2310995
 - Laura Beatriz Silva Serbêto - 2321107
 
+### Tecnologias utilizadas:
+- Frontend: React.js para a construção da interface de usuário e componentização da tela de login.
+
+- Comunicação HTTP: Axios para o envio das requisições POST.
+
+- Estilização: CSS puro (ou insira aqui a biblioteca escolhida, como Tailwind CSS ou Styled Components).
+
+- Backend: Node.js como ambiente de execução do servidor HTTP.
+
+- Framework Web: Express.js para a criação ágil do endpoint /login e gerenciamento das rotas da API.
+
+### Atribuição de tarefas:
+
+👩‍💻 Laura: Frontend
+- Criar o projeto React e montar a tela de login com usuário e senha (garantindo o campo password).
+- Fazer o botão "Entrar" disparar a requisição POST para a API.
+- Tratar as respostas da API para exibir as mensagens de sucesso ou erro na interface.
+
+👨‍💻 Caique: Backend - Regras de Negócio
+- Criar a rota específica do endpoint POST /login.
+- Escrever a lógica para validar o usuário e a senha usando apenas variáveis estáticas , garantindo a regra de não usar banco de dados.
+- Estruturar os retornos corretos da API: 200 (OK) para sucesso, 401 (Unauthorized) para credenciais inválidas e 400 (Bad Request) se faltar algum dado na requisição.
+
+🕵️‍♂️ Felipe: Backend - Infraestrutura, Testes e Entrega
+- Fazer o setup inicial do Node.js.
+- Realizar os testes de API para garantir que as rotas do Caique estão retornando os status corretos antes de integrar com o frontend.
+- Escrever o arquivo README.md obrigatório , detalhando as tecnologias usadas e, o mais importante, o passo a passo exato para rodar o backend e o frontend.
+- Fazer o teste final de "prova real": rodar o projeto do zero seguindo apenas as instruções do README para garantir que não haverá desconto de pontos.
+
+## Instruções de execução
