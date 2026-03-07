@@ -11,7 +11,7 @@
 
 - Comunicação HTTP: Axios para o envio das requisições POST.
 
-- Estilização: CSS puro (ou insira aqui a biblioteca escolhida, como Tailwind CSS ou Styled Components).
+- Estilização: Tailwind CSS.
 
 - Backend: Node.js como ambiente de execução do servidor HTTP.
 
@@ -36,3 +36,41 @@
 - Fazer o teste final de "prova real": rodar o projeto do zero seguindo apenas as instruções do README para garantir que não haverá desconto de pontos.
 
 ## Instruções de execução
+
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) instalado na máquina (versão 18+ recomendada).
+
+### Backend
+
+1. Abra um terminal e navegue até a pasta do backend:
+   ```bash
+   cd backend
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor:
+   ```bash
+   npm run dev
+   ```
+   *O backend estará acessível em `http://localhost:3001`.*
+
+**Para rodar os testes da API:**
+```bash
+npm test
+```
+
+### Frontend
+
+*(Esta seção será atualizada pela Laura após a criação do app React)*
+
+1. Navegue até a pasta do frontend e instale as dependências:
+   ```bash
+   cd frontend
+   npm install
+   ```
+2. Execute o frontend:
+   ```bash
+   npm start
+   ```
