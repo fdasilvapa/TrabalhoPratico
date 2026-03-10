@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: theme("fontFamily.mario");
+  background-color: theme("colors.mario-sky");
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center
+}

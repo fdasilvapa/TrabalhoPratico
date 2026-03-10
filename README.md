@@ -63,8 +63,6 @@ npm test
 
 ### Frontend
 
-*(Esta seção será atualizada pela Laura após a criação do app React)*
-
 1. Navegue até a pasta do frontend e instale as dependências:
    ```bash
    cd frontend
@@ -72,5 +70,7 @@ npm test
    ```
 2. Execute o frontend:
    ```bash
-   npm start
+   npm run dev
    ```
+   *O frontend estará acessível em `http://localhost:5173`.*
+
