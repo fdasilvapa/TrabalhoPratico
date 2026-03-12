@@ -1,13 +1,21 @@
 @import "tailwindcss";
 
+@theme {
+  --font-family-mario: "Press Start 2P", system-ui, cursive;
+  --color-mario-red: #E52521;
+  --color-mario-blue: #00439C;
+  --color-mario-yellow: #FBD000;
+  --color-mario-green: #43B047;
+  --color-mario-sky: #5C94FC;
+}
 
 body {
-  font-family: theme("fontFamily.mario");
-  background-color: theme("colors.mario-sky");
+  font-family: var(--font-family-mario);
+  background-color: var(--color-mario-sky);
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  justify-content: center
+  justify-content: center;
 }
