@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-// Mocked user list serving as a static database
 const users = [
   { username: 'admin', password: '123' },
   { username: 'caique', password: 'password123' },
